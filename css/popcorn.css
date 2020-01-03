@@ -1,0 +1,240 @@
+/*page title styling*/
+
+#content h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+/*recipe images style*/
+
+#recipeImg {
+    text-align: center;
+    margin-top: 15px;
+}
+
+img {
+    border: 5px solid #CBEBD7;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#recipeImg #img1 {
+    width: 35%;
+    margin-right: 40px;
+    vertical-align: top;
+    margin-top: 7.3%;
+}
+
+#recipeImg #img2 {
+    width: 30%;
+}
+
+
+/*contents style*/
+
+#content {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 15px;
+    float: left;
+}
+
+
+/*about recipe style*/
+
+#about {
+    margin-top: 20px;
+}
+
+.h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+
+/*Ingredients style*/
+
+#ingredients {
+    border: 5px solid #CBEBD7;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10%;
+    float: left;
+}
+
+
+/*steps style*/
+
+#steps {
+    margin-left: 40%;
+}
+
+
+/*ordered list style*/
+
+.orderedlist {
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.orderedlist li ol {
+    list-style: lower-alpha;
+    margin-left: 20px;
+}
+
+
+/*Images in ordered list*/
+
+.orderedListImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+
+/*forms styling*/
+
+#forms {
+    margin-top: -38%;
+}
+
+.rate {
+    margin-right: 65%;
+}
+
+#forms h4,
+#forms p {
+    font-size: 115%;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#forms textarea {
+    width: 300px;
+}
+
+
+/*ipad view*/
+
+@media screen and (max-width:1024px) {
+    /*about style*/
+    #about p {
+        font-size: 25px;
+    }
+    /*Ingredients style*/
+    #ingredients {
+        margin-top: 5%;
+        float: none;
+        border: none;
+        border: none;
+        background-color: #CBEBD7;
+        text-align: center;
+        opacity: 0.8;
+        width: 95%;
+    }
+    #ingredients ol {
+        list-style-position: inside;
+    }
+    /*steps style*/
+    #content {
+        font-size: larger;
+    }
+    #steps {
+        margin-left: 3%;
+    }
+    .orderedlist {
+        font-size: 25px;
+    }
+    .orderedListImage {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+    }
+    /*forms style*/
+    #forms {
+        margin-top: 2%;
+        font-size: larger;
+    }
+    #forms textarea {
+        width: 100%;
+    }
+    .rate {
+        margin-right: 75%;
+    }
+}
+
+
+/*phone view*/
+
+@media screen and (max-width:760px) {
+    #content {
+        margin-top: 133px;
+    }
+    /*page title styling*/
+    #content h1 {
+        font-size: 140%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    /*about style*/
+    #about {
+        margin-top: 5px;
+    }
+    #about p {
+        font-size: 25px;
+    }
+    /*recipe images style*/
+    #recipeImg #img1 {
+        margin: 0px;
+        width: 95%;
+    }
+    #recipeImg #img2 {
+        margin-top: 10px;
+        width: 95%;
+    }
+    /*Ingredients style*/
+    #ingredients {
+        margin-top: 5%;
+        padding: 5px;
+        float: none;
+        border: none;
+        background-color: #CBEBD7;
+        opacity: 0.8;
+        width: 95%;
+    }
+    #ingredients ol {
+        text-align: left;
+        list-style-position: outside;
+    }
+    /*steps style*/
+    * {
+        word-wrap: break-word;
+    }
+    #steps {
+        margin-left: 3%;
+    }
+    .orderedlist {
+        font-size: 25px;
+    }
+    .orderedListImage {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 75%;
+    }
+    /*forms style*/
+    #forms {
+        margin-top: -1%;
+    }
+    #forms textarea {
+        width: 95%;
+    }
+    .rate {
+        margin-right: 50%;
+    }
+}

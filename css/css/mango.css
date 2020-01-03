@@ -1,0 +1,127 @@
+/*about styling*/
+
+#about h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    margin-top: 50%;
+}
+
+#about p {
+    font-size: 22px;
+}
+
+#about a {
+    color: #141414;
+}
+
+#about a:hover {
+    color: #CBEBD7;
+}
+
+#about a:visited {
+    color: purple;
+}
+
+
+/*side pic styling*/
+
+#sidePic img {
+    width: 100%;
+}
+
+
+/*Recipe styling*/
+
+#Recipe {
+    background-color: #CBEBD7;
+}
+
+
+/*Ingredients styling*/
+
+#Recipe h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+}
+
+#Recipe ul {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+#ingredients h4 {
+    margin-top: 53%;
+}
+
+#ingredients ul {
+    list-style: none;
+}
+
+#instructions {
+    background-color: #f4f4f4;
+}
+
+#instructions ul {
+    list-style: circle;
+}
+
+
+/*browniePics styling*/
+
+#mangoPics h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+}
+
+#mangoPics p {
+    margin-top: 10px;
+}
+
+
+/*forms*/
+
+#forms h4,
+#forms p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#forms textarea {
+    width: 50%;
+}
+
+.rate {
+    margin-right: 85%;
+}
+
+@media screen and (max-width:950px) {
+    .rate {
+        margin-right: 79%;
+    }
+}
+
+
+/*mobile view*/
+
+@media screen and (max-width:760px) {
+    #content {
+        margin-top: 133px;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    #about h4 {
+        margin-top: 5px;
+    }
+    #forms textarea {
+        width: 95%;
+    }
+    .rate {
+        margin-right: 50%;
+    }
+    #ingredients h4 {
+        margin-top: 0px;
+    }
+}

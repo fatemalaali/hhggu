@@ -1,0 +1,134 @@
+    /*about styling*/
+    
+    #content h4 {
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    #about h4 {
+        font-size: 32px;
+    }
+    
+    #about p {
+        font-size: 22px;
+    }
+    
+    #about #picture {
+        text-align: center;
+    }
+    
+    #picture img {
+        width: 85%;
+        border: 5px solid #CBEBD7;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    #paragraph h4,
+    #paragraph p {
+        margin-left: 7%;
+        word-wrap: break-word;
+    }
+    /*Recipe styling*/
+    
+    #Recipe h4 {
+        font-size: 20px;
+    }
+    
+    #Recipe {
+        background-color: #CBEBD7;
+        border-radius: 25px;
+    }
+    /*Ingredients styling*/
+    
+    #ingredients table,
+    th,
+    td {
+        border: 5px solid #8bd2a6;
+        text-align: center;
+        border-collapse: collapse;
+        font-size: 130%;
+        width: 95%;
+    }
+    
+    #ingredients {
+        background-color: #f4f4f4;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    #ingredients th {
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    /*Instructions Styling*/
+    
+    #instructions h4 {
+        font-size: 28px;
+        margin-top: 13.5%;
+    }
+    
+    #instructions ol {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    /*picture styling*/
+    
+    #puddingPic img {
+        border: 5px solid #CBEBD7;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    #puddingPic #img1 {
+        margin-top: 4%;
+    }
+    /*forms styling*/
+    
+    #forms h4,
+    #forms p {
+        font-size: 140%;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    
+    .rate {
+        margin-right: 85%;
+    }
+    /*ipad view*/
+    
+    @media screen and (max-width:950px) {
+        .rate {
+            margin-right: 79%;
+        }
+    }
+    /*phone view*/
+    
+    @media screen and (max-width:760px) {
+        #content {
+            margin-top: 133px;
+        }
+        #picture img {
+            width: 100%;
+        }
+        #instructions h4 {
+            margin-top: 0%;
+        }
+        /*forms style*/
+        #forms {
+            margin-top: -1%;
+        }
+        #forms textarea {
+            width: 95%;
+        }
+        .rate {
+            margin-right: 50%;
+        }
+        [class*="col-"] {
+            width: 100%;
+        }
+        #ingredients table,
+        th,
+        td {
+            font-size: 110%;
+        }
+    }
